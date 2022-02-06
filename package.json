@@ -1,0 +1,25 @@
+{
+  "name": "js-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node test/sandbox.test.ts",
+    "start": "ts-node src/sandbox.ts",
+    "watch": "nodemon src/sandbox.ts",
+    "watch:test": "nodemon test/sandbox.test.ts",
+    "dev": "cd react && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "tailwindcss": "^3.0.18",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.15"
+  }
+}
